@@ -1,13 +1,15 @@
 body {
     background-color: #ADD8E6;
     font-family: Arial, sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Centre verticalement */
+    text-align: center; /* Centre le texte et les éléments inline */
     margin: 0;
+    padding: 20px;
+}
+
+img {
+    display: block; /* Permet d'utiliser margin: auto */
+    margin: 20px auto; /* Centre l'image horizontalement + marge verticale */
+    max-width: 100%; /* Responsive */
 }
 
 h1 {
@@ -20,8 +22,3 @@ p {
     font-size: 20px;
 }
 
-img {
-    width: 150px; /* Taille de l’image du lapin */
-    margin-top: 20px;
-    border-radius: 10px;
-}
