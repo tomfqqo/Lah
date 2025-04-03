@@ -20,13 +20,8 @@ p {
     font-size: 20px;
 }
 
-/* Ajout du lapin et du cœur */
-.emoji {
-    font-size: 50px;
-    margin: 10px;
-}
-
 img {
     width: 150px; /* Taille de l’image du lapin */
     margin-top: 20px;
+    border-radius: 10px;
 }
